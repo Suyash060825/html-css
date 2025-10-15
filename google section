@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sasta_google</title>
+    <style>
+        .google{
+            border-style:none;
+            box-shadow:0px 0px 5px  rgba(0,0,0,0.2);
+            border-radius:30px;
+            width:500px;
+            font-size:17px;
+            padding-top:12px;
+            padding-bottom:12px;
+            padding-left:15px;
+            padding-right:15px;
+            display:inline-block;
+            margin-bottom:30px;
+            
+        }
+        .google-logo{
+            width:200px; 
+            margin-bottom:8px;
+            
+        }
+        .button{
+            font-size:15px;
+            margin-left:10px;
+            margin-right:10px;
+            padding-top:8px;
+            padding-bottom:8px;
+           border:none;
+           font-family:arial;
+           cursor:pointer;
+        }
+        .div-google{
+            width:600px;
+            margin-left:20px;
+            margin-right:20px;
+            margin-top:20px;
+            padding-top:20px;
+            padding-bottom:20px;
+            
+            text-align:center;
+
+
+        }    
+            
+    </style>
+</head>
+<body>
+    <div class="div-google">
+        <img class="google-logo" src="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo.png" alt="google-logo">
+        
+        <input class="google" type="text" placeholder="Search Google or type a URL">
+        <button class="button">
+            Google Search
+        </button>
+         <button class="button">
+            I'm Feeling Lucky
+        </button>
+    </div>
+    
+    
+    
+</body>
+</html>
