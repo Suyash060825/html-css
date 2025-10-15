@@ -1,0 +1,122 @@
+<style>
+    .shadow-button{
+       background-color:rgb(9, 179, 9);
+       padding-left:15px;
+       padding-right:15px; 
+       padding-top:8px; 
+       padding-bottom:8px; 
+       margin-right: 20px;
+       margin-bottom:3px;
+     
+       border-style:none;
+       color:white;
+       cursor:pointer;
+       transition:opacity 0.15s;
+       box-shadow:5px 5px 10px rgba(0,0,0,0.3);
+       
+    }
+    .shadow-button:hover{
+       opacity:0.9; 
+    }
+    .shadow-button:active{
+        margin-left: 3px;
+        margin-top:3px;
+        box-shadow:none;
+        margin-right:0px;
+        margin-bottom:0px;
+    }
+    .stretch-button{
+        background-color:rgb(4, 138, 4);
+        color:white;
+        padding-left:15px;
+        padding-right:15px; 
+        padding-top:8px; 
+        padding-bottom:8px; 
+        border:none;
+        cursor:crosshair;
+        transition:padding-left 1s,
+        padding-right 1s,
+        padding-top 1s,
+        padding-bottom 1s;
+        margin-top:7px;
+        margin-bottom:7px;
+        
+    }
+    .stretch-button:active{
+        padding-left:20px;
+        padding-right:20px; 
+        padding-top:15px; 
+        padding-bottom:15px;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    .one-button{
+        border:none;
+        color:white;
+        background-color:rgb(4, 138, 4);
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:8px;
+        padding-bottom:8px;
+        margin-right:10px;
+        margin-left:10px;
+        transition:padding 1s,margin 1s;
+    }
+    .one-button:hover{
+        padding-left:25px;
+        padding-right:25px;
+        margin-left:0px;
+        margin-right:0px;
+    }
+    .pagination{
+        padding-left:8px;
+        padding-right:8px;
+        padding-top:5px;
+        padding-right:5px;
+        margin-left:5px;
+        margin-right:5px;
+    }
+    .page{
+        margin-left:3px;
+        margin-right:3px;
+        fonr
+    }
+</style>
+
+
+
+
+
+<button class="shadow-button">
+    Shadow
+</button>
+
+<button class="stretch-button">
+    Stretch
+</button>
+<br></br>
+<button class="one-button">
+    One
+</button>
+<button class="one-button">
+    Two
+</button>
+<button class="one-button">
+    Three
+</button>
+<br></br>
+<button class="pagination">
+    Back
+</button>
+<a class="page" href="https://www.flipkart.com/?affid=affveve&affExtParam1=60827&affExtParam2=55b923b9389162e9e738cacd4200f8a7" target="_blank">
+    1
+</a>
+<a class="page" href="https://www.booking.com/index.html?aid=1670475&label=enin-edge-ntp-topsites-curate-ana" target="_blank">
+    2
+</a>
+<a class="page" href="https://www.ajio.com/?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=cuelinks_9485&utm_term=20250823clxpxlw4mlj7&clickid=68a9ac33a5c48b00011aa3c3&pid=19&offer_id=2&attribution_window=1D&return_cancellation_window=45D" target="_blank">
+    3
+</a>
+<button class="pagination">
+    Next
+</button>
