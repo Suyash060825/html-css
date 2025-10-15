@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>13 f</title>
+    <style>
+        .dp{
+        margin-right:10px;
+        }
+        .img{
+            height:50px;
+            width:50px;
+            border-radius:25px;
+        }
+        .sign{
+            color:rgb(107, 107, 108);
+        }
+    </style>
+</head>
+<body>
+    <div class="main" style="display:flex;
+        border-width:1px;
+        border-style:solid;
+        border-color:black;
+        width:420px;
+        padding:10px;">
+        <div class="dp">
+            <img class="img" src="cat/cat-1.jpeg">
+        </div>
+        <div class="text">
+            <div>
+                <div class="author" style="margin-bottom:5px;">
+                    supersimple.dev <Span class="sign">@SuperSimpleDev</Span>
+                </div>
+                <div style="margin-bottom:7px;">
+                    What is backend web development? A complete overview. New video is up!
+                </div>
+            </div>
+            <div style="display:flex;
+                border-radius:12px;
+                border-style:solid;
+                border-color:rgb(200, 197, 197);
+                border-width:1px;
+                justify-content:center;
+                ">
+                <div style="background-color:rgb(200, 197, 197);
+                    width:80px;
+                    height:90px;
+                    margin:-1px;"></div>
+                <div style="margin-left:5px;">
+                    <div style="margin-bottom:5px;
+                    color:rgb(83, 83, 83);
+                    margin-top:8px;">
+                        youtube.com
+                    </div>
+                    <div style="margin-bottom:7px;">
+                        Backend web development - a complete overview (2021)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
