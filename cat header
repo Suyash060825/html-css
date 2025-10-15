@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14e</title>
+    <style>
+        body{
+            height:3000px;
+        }
+        .add-friend{
+        background-color: rgba(44, 25, 251, 0.884);
+        height:36px;
+        width: 115px;
+        color: white;
+        font-weight:bold;
+        border:none;
+        cursor:pointer;
+        border-radius: 8px;
+        transition:background-color 0.2s;
+        margin-right:10px;
+        }
+        .message{
+            height:36px;
+            font-weight:bold;
+            border:none;
+            border-radius:5px;
+            background-color:rgb(225, 225, 225);
+            width:115px;
+        }
+        .left{
+            margin-left:70px;
+            display:flex;
+            align-items:center;
+            flex:1;
+        }
+        .dp{
+            height:40px;
+            width:40px;
+            border-radius:20px;
+        }
+        .header{
+            position:fixed;
+            left:0px;
+            right:0px;
+            top:0px;
+            height:30px;
+            display:flex;
+            justify-content:space-between;
+            padding:30px;
+        }
+        .right{
+            margin-right:60px;
+            display:flex;
+            width:200px;
+            justify-content:space-between;
+        }
+        .name{
+            font-size:20px;
+            margin-left:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <div>
+                <img class="dp" src="cat/cat-1.jpeg">
+            </div>
+            <div class="name">Oliver Cat</div>
+        </div>
+        <div class="right">
+            <button class="add-friend">Add Friend</button>
+            <button class="message">Message</button>
+        </div>
+    </div>
+</body>
+</html>
