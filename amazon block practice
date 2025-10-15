@@ -1,0 +1,62 @@
+<style>
+    .stock-para{
+        color:green;
+        font:20px;
+        font-weight:bold;
+    }
+    .addtocart-button{
+        background-color: rgb(255,216,20);
+        height:35px;
+        font-weight:bold;
+        border:none;
+        width:115px;
+        border-radius:18px;
+        cursor:pointer;
+        transition: background-color 0.3s;
+    }
+    .addtocart-button:hover{
+        background-color:rgb(231, 195, 18) ;
+    }
+    .buy-button{
+        background-color:rgb(255,164,28);
+        height:35px;
+        margin-left:8px;
+        font-weight:bold;
+        border:none;
+        width:100px;
+        border-radius:18px;
+        cursor:pointer;
+        transition: background-color 0.3s;
+
+    }
+    .buy-button:hover{
+        background-color:rgb(252, 174, 59) ;
+    }
+    .amazon-link:hover{
+        color:green;
+    }
+</style>
+
+
+<a class="amazon-link" href="https://www.amazon.in/?tag=msndeskabkin-21&ref=pd_sl_1tmvcmz30t_e&adgrpid=1329311168025487&hvadid=83082214468070&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=154798&hvtargid=kwd-83082829756950:loc-90&hydadcr=5650_2377261&mcid=6233a7c588f136ff9af0c63d9f6745bc" target="_blank">
+    Back to Amazon
+</a>
+
+<h1>
+    Nike Black Running Shoes
+</h1>
+
+<h3 class="stock-para">
+    $39 - in stock.
+</h3>
+
+<h3>
+    Free delivery tomorrow.
+</h3>
+
+<button class="addtocart-button">
+    Add to Cart
+</button>
+<button class="buy-button">
+    Buy now
+</button>
