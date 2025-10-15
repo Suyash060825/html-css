@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Flexbox practice</title>  
+        <style>
+            .button{
+                background-color:rgb(54, 169, 240);
+                border:none;
+                padding-left:17px;
+                padding-right:17px;
+                padding-top:5px;
+                padding-bottom:5px;
+                border-radius:15px;
+                color:white;
+                font-weight:bold;
+                cursor:pointer;
+            }
+            .title{
+                font-size:20px;
+            }
+            .parts{
+                display:flex;
+                padding:5px;
+                flex-direction:row;
+                justify-content:space-between;
+            }
+            .dp{
+                width:40px;
+                border-radius:50%;
+            }
+            .follow{
+                background-color:rgb(28, 154, 232);
+                border:none;
+                padding-left:17px;
+                padding-right:17px;
+                padding-top:5px;
+                padding-bottom:5px;
+                border-radius:5px;
+                color:white;
+                font-weight:bold;
+                cursor:pointer;
+            }
+       </style>
+    </head>
+    <body style="padding-bottom:500px;">
+        <div style="
+            display:flex;
+            flex-direction:row;">
+            <div style="background-color:lightblue;">Div 1</div>
+            <div style="background-color:lightpink">Div 2<p>hello</p></div>
+        </div>
+
+        <div style="
+            margin-top:20px;
+            display:flex;
+            flex-direction:row;">
+            <div style="background-color:lightblue; width:100px;">100px</div>
+            <div style="background-color:lightpink; flex:1;">flex:1</div>
+        </div>
+         <div style="
+            margin-top:20px;
+            display:flex;
+            flex-direction:row;">
+            <div style="background-color:lightblue; width:100px;">100px</div>
+            <div style="background-color:lightpink; flex:1;">flex:1</div>
+            <div style="background-color:lightblue; flex:2;">flex:2</div>
+        </div>
+
+        <div style="
+            margin-top:20px;
+            height:70px;
+            border-width:1px;
+            border-style:solid;
+            border-color:grey;
+            justify-content:center;
+            display:flex;
+            flex-direction:row;">
+            <div style="background-color:lightblue; width:100px;">100px</div>
+            <div style="background-color:lightpink; width:100px">100px</div>
+            <div style="background-color:lightblue; width:100px">100px</div>
+        </div>
+        <div style="
+            margin-top:20px;
+            height:70px;
+            border-width:1px;
+            border-style:solid;
+            border-color:grey;
+            justify-content:space-between;
+            display:flex;
+            flex-direction:row;">
+            <div style="background-color:lightblue; width:100px;">100px</div>
+            <div style="background-color:lightpink; width:100px">100px</div>
+            <div style="background-color:lightblue; width:100px">100px</div>
+        </div>
+        <div style="
+            margin-top:20px;
+            height:70px;
+            border-width:1px;
+            border-style:solid;
+            border-color:grey;
+            justify-content:center;
+            justify-content:space-between;
+            align-items:center;
+            display:flex;
+            flex-direction:row;">
+            <div style="background-color:lightblue; width:100px;">100px</div>
+            <div style="background-color:lightpink; width:100px">100px</div>
+            <div style="background-color:lightblue; width:100px">100px</div>
+        </div>
+        <div style="margin-top:20px;
+        display:flex;
+        flex-direction:row;">
+            <div style="background-color:lightblue; width:200px;">200px</div>
+            <div style="background-color:lightpink; width:75px;">75px</div>
+        </div>
+        <div style="display:flex;
+        margin-top:30px;
+        flex-direction:row;">
+            <div style="background-color:lightblue; width:50px;">item 1</div>
+            <div style="background-color:lightpink; flex:1;">item 2</div>
+            <div style="background-color:lightblue; width:75px;">item 3</div>
+        </div>
+        <div style="display:flex;
+        flex-direction:row;
+        margin-top:30px;
+        justify-content:space-between;">
+        <div style="background-color:lightpink;">item 1</div>
+        <div style="background-color:lightpink;">item 2</div>
+        <div style="background-color:lightpink;">item 3</div>
+        <div style="background-color:lightpink;">item 4</div>
+        </div>
+        <div style="display:flex;
+        margin-top:30px;
+        flex-direction:row;
+        border-width:1px;
+        border-style:solid;
+        border-color:gray;
+        height:50px;
+        justify-content:space-between;
+        align-items:center;
+        ">
+        <div style="background-color:lightblue;">item 1</div>
+        <div style="background-color:lightblue;">item 2</div>
+        </div>
+        <br>
+
+
+        <div style="margin-top:20px;
+        border-width:1px;
+        border-style:solid;
+        border-color:grey;
+        padding:5px;
+        border-radius:5px;
+        ">
+            <div class="parts">
+                <div class="title">
+                    Home
+                </div>
+                <div class="count">
+                    <button class="button">
+                        14
+                    </button>
+                </div>
+            </div>
+            <div class="parts">
+                <div class="title">
+                    Notifications
+                </div>
+                <div class="count">
+                    <button class="button">
+                        3
+                    </button>
+                </div>
+            </div>
+            <div class="parts">
+                <div class="title">
+                    Messages
+                </div>
+                <div class="count">
+                    <button class="button">
+                        5
+                    </button>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div style="padding:5px;
+            width:400px;">
+            <div style="display:flex;
+                flex-direction:row;
+                justify-content:space-between;
+                padding:5px;
+                align-items:center;">
+                <div style="width:50px;">
+                    <img class="dp" src="channels/channel-1.jpeg">
+                </div>
+                <div style="flex:1;">
+                        <div><b>oliver</b></div>
+                        <div>the cat</div>
+                        <div>Popular</div>    
+                </div>
+                <div style="width:50px;">
+                    <button class="follow">
+                        Follow
+                    </button>
+                </div>
+            </div>
+            <div style="display:flex;
+                flex-direction:row;
+                justify-content:space-between;
+                padding:5px;
+                align-items:center;">
+                <div style="width:50px;">
+                    <img class="dp" src="channels/channel-2.jpeg">
+                </div>
+                <div style="flex:1;">
+                        <div><b>Mimi</b></div>
+                        <div>Sleepy Cat</div>
+                        <div>Popular</div>    
+                </div>
+                <div style="width:50px;">
+                    <button class="follow">
+                        Follow
+                    </button>
+                </div>
+            </div>
+            <div style="display:flex;
+                flex-direction:row;
+                justify-content:space-between;
+                padding:5px;
+                align-items:center;">
+                <div style="width:50px;">
+                    <img class="dp" src="channels/channel-3.jpeg">
+                </div>
+                <div style="flex:1;">
+                        <div><b>Rex</b></div>
+                        <div>Happy Bulldog</div>
+                        <div>Popular</div>    
+                </div>
+                <div style="width:50px;">
+                    <button class="follow">
+                        Follow
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
