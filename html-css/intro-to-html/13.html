@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise 13</title>
+    <style>
+        .main{
+            border-style:solid;
+            border:weight:1px;
+            border-color:grey;
+            padding:10px;
+            height:300px;
+        }
+        .dp{
+            height:40px;
+            width:40px;
+            border-radius:20px;
+        }
+        .inbox{
+            font-size:17px;
+            color:grey;
+            margin-bottom:5px;
+        }
+        .title{
+            font-weight:bold;;
+            font-size:17px;
+        }
+        .time{
+            color:grey;
+        }
+        .middle-text{
+            font-size:15px;
+            font-weight:bold;
+        }
+        .end-text{
+            color:grey;
+        }
+        .content{
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            margin-bottom:10px;
+        }
+        .start-text{
+            display:flex;
+            justify-content:space-between;
+        }
+        .info{
+            margin-left:6px;
+        }
+    </style>
+</head>
+<body>
+    <div style="display:flex;
+        flex-direction:row;">
+        <div style="background-color:lightpink;
+            width:100px;
+            height:50px;
+            display:flex;
+            align-items:center;
+            justify-content:center;">
+                <div style="background-color:black;
+                    color:white;">
+                    item1
+                </div>
+        </div>
+        <div style="background-color:lightblue;
+            width:200px;"></div>
+    </div>
+
+    <div style="display:flex;
+    margin-top:30px;
+    height:50px;
+    margin-bottom:50px;">
+        <div style="background-color:lightpink;
+            width:100px;"></div>
+        <div style="background-color:lightblue;
+        width:200px;
+        ">
+        <div style="width:100%;">row1</div>
+        <div style="display:flex;
+            flex-direction:row;
+            align-items:center;
+            justify-content:space-between;">
+            <div style="background-color:black;
+            color:white;
+            " >row2</div>
+        <div style="background-color:black;
+            color:white;">row2</div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="main">
+        <div class="inbox">
+            All INBOXES
+        </div>
+        <div class="content">
+            <div class="user-img">
+                <img class="dp" src="cat/cat-1.jpeg">
+            </div>
+            <div class="info">
+                <div class="start-text">
+                    <div class="title" style="padding:1px;">
+                        Chewy Promotions
+                    </div>
+                    <div class="time" style="padding:1px;">
+                        4:58 PM
+                    </div>
+                </div>
+                <div class="middle-text" style="padding:1px;">
+                    Biggest sales of the year!
+                </div>
+                <div class="end-text" style="padding-top:1px">
+                    Hey there! We're writing to tell you about your...
+                </div>
+            </div>
+        </div>
+         <div class="content">
+            <div class="user-img">
+                <img class="dp" src="cat/cat-2.jpeg">
+            </div>
+            <div class="info">
+                <div class="start-text">
+                    <div class="title" style="padding:1px;">
+                        Best Buy
+                    </div>
+                    <div class="time" style="padding:1px;">
+                        12:32 PM
+                    </div>
+                </div>
+                <div class="middle-text" style="padding:1px;">
+                    Your Best Buy eReceipt
+                </div>
+                <div class="end-text" style="padding-top:1px">
+                    Thank you for buying on Best buy, here is ..........
+                </div>
+            </div>
+        </div>
+         <div class="content">
+            <div class="user-img">
+                <img class="dp" src="cat/cat-1.jpeg">
+            </div>
+            <div class="info">
+                <div class="start-text">
+                    <div class="title" style="padding:1px;">
+                        Chewy Promotions
+                    </div>
+                    <div class="time" style="padding:1px;">
+                        4:58 PM
+                    </div>
+                </div>
+                <div class="middle-text" style="padding:1px;">
+                    Biggest sales of the year!
+                </div>
+                <div class="end-text" style="padding-top:1px">
+                    Hey there! We're writing to tell you about your...
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div>
+        <p>hello</p>
+    </div>
+    
+</body>
+</html>

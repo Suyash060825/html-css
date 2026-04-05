@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord</title>
+    <style>
+        body{
+            height:3000px;
+        }
+        .main-sidebar{
+            position:fixed;
+            left:0;
+            top:0;
+            bottom:0;
+            width:400px;
+        }
+        .cat{
+            height:50px;
+            width:50px;
+            border-radius:25px;
+            margin-bottom:10px;
+        }
+        .left-sidebar{
+            background-color:#2C2F33;
+            position:fixed;
+            top:0;
+            bottom:0;
+            left:0;
+            width:80px;
+            display:flex;
+            flex-direction:column;
+            justify-content:start;
+            padding:10px;
+            
+        }
+        .right-sidebar{
+            background-color:#45484e;
+            left:70px;
+            top:0;
+            bottom:0;
+            position:fixed;
+            width:180px;
+            color:white;
+            margin:0;
+            padding:20px;
+            margin-left:-1px;
+        }
+        .content{
+            display:flex;
+            flex:1;
+            justify-content:space-between;
+            margin-bottom:20px;
+            align-items:center;
+        }
+        .hash{
+            color:#b1b7be;
+        }
+        .things{
+            margin-bottom:20px;
+            font-size:20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main-sidebar">
+        <div class="left-sidebar">
+            <img class="cat" src="cat/cat-1.jpeg">
+            <img class="cat" src="cat/dog-1.jpeg">
+            <img class="cat" src="cat/cat-2.jpeg">
+        </div>
+        <div class="right-sidebar">
+            <div class="content">
+                <div style="font-weight:bold;">
+                    INFO</div>
+                <div style="font-weight:bold;
+                    font-size:24px;
+                    font-weight:bold;
+                    color:#b1b7be">
+                    +</div>
+            </div>
+            <div class="hash">
+                <div class="things"># new-videos</div>
+                <div class="things"># updates</div>
+                <div class="things"># faq</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

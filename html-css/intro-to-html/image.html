@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image-practice</title>
+    <style>
+        .img,.img2,.img3{
+            display:block;
+        }
+        .img{
+            width:200px;
+            border-radius:8px;
+        }
+        .img2{
+            width:100px;
+            height:100px;
+            object-fit:cover;
+            object-position:center;
+            border-style:solid;
+            border-color:red;
+        }
+        .img3{
+            width:200px;
+            height:200px;
+            object-fit:cover;
+            border-radius:200px;
+            object-position:center;
+            
+        }
+        .search{
+            font-size:14px;
+            padding-top:5px;
+            padding-bottom:5ox;
+            border-radius:7px;
+            margin-bottom:20px;
+        }
+        .google{
+            border-style:none;
+            box-shadow:0px 0px 5px  rgba(0,0,0,0.2);
+            border-radius:30px;
+            width
+            :500px;
+            font-size:17px;
+            padding-top:12px;
+            padding-bottom:12px;
+            padding-left:15px;
+            padding-right:15px;
+            margin-top:20px;
+            margin-right:20px;
+        }
+        .email{
+            font-family:arial;
+            color:grey;
+            margin-bottom:8px;
+            display:inline-block;
+        }
+        .linkedin{
+            margin-top:0px;
+            border-color:black;
+            width:300px;
+            font-size:18px;
+            border-width:1.5px;
+        }
+        .linkedin-button{
+            background-color:rgb(41, 110, 238);
+            border:none;
+            padding-left:15px;
+            padding-right:15px;
+            padding-top:5px;
+            padding-bottom:5px;
+            width:300px;
+            border-radius:20px;
+            color:white;
+        }
+        .twitter-img{
+            width:50px;
+            height:50px;
+            object-fit:cover;
+            object-position:right;
+            border-radius:25px;
+            vertical-align:middle;margin-right:5px;
+        }
+        .tweet{
+            font-size:17px;
+            border:none;
+            vertical-align:middle;
+            width:300px;
+        }
+        .tweet-button{
+            background-color:rgb(41, 110, 238);
+            border:none;
+            padding-top:5px;
+            padding-bottom:5px;
+            padding-left:8px;
+            padding-right:8px;
+            color:white;
+            border-radius:20px;
+            cursor:pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <img class="img" src="https://supersimple.dev/exercises/youtube/thumbnails/thumbnail-1.webp" alt="img">
+    <img class="img2" src="https://supersimple.dev/exercises/youtube/thumbnails/thumbnail-2.webp" alt="img">
+    <img class="img3" src="https://supersimple.dev/exercises/youtube/thumbnails/thumbnail-3.webp" alt="img">
+    <input class="search" type="text" placeholder="Search">
+    <input class="google" type="text" placeholder="Search Google or type a URL">
+    <hr><br>
+    <p class="email">
+        Email
+    </p>
+    <input class="linkedin" type="text" >
+
+    <p>
+        By clicking Agree & Join, you agree to the Privacy Policy.
+    </p>
+    <button class="linkedin-button">Agree & Join</button>
+    <hr>
+    <br>
+    <img class="twitter-img" src="https://supersimple.dev/exercises/youtube/thumbnails/thumbnail-1.webp">
+    <input class="tweet" type="text" placeholder="What's happening?">
+    <button class="tweet-button">
+        Tweet
+    </button>
+     
+</body>
+</html>
